@@ -1,0 +1,33 @@
+;; Emacs text editor
+(bind-keys global-keymap
+    "M-3" `(jump-or-exec "^emacs@"
+        ,(lambda ()
+          (system "emacs &"))
+        ,(lambda (wind)
+          (display-window wind))))
+
+;; gvim text editor
+(bind-keys global-keymap
+    "M-2" `(jump-or-exec "^gvim@"
+        ,(lambda ()
+          (system "gvim &"))
+        ,(lambda (wind)
+          (display-window wind))))
+
+
+;; oblogout	
+(bind-keys global-keymap
+    "M-0" `(jump-or-exec "^oblogout@"
+        ,(lambda ()
+          (system "oblogout &"))
+        ,(lambda (wind)
+          (display-window wind))))
+
+;; texmacs
+(bind-keys global-keymap
+    "M-8" `(jump-or-exec "^texmacs@"
+        ,(lambda ()
+          (system "texmacs &"))
+        ,(lambda (wind)
+          (display-window wind))))
+

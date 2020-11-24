@@ -1,0 +1,29 @@
+#! /bin/sh
+
+sxhkd &
+
+#panel &
+
+feh --bg-scale ~/pic/123.png
+
+perWindowLayoutD &
+~/scripts/lemon.sh | lemonbar -p -u 2 -a 5 -f "Font Awesome:size=14" &
+
+bspc monitor -d I II III IV V 
+
+bspc config border_width         1
+bspc config window_gap           5
+
+bspc config split_ratio          0.52
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+
+bspc rule -a Gimp desktop='^8' state=floating follow=on
+bspc rule -a Chromium desktop='^2'
+bspc rule -a mplayer2 state=floating
+bspc rule -a Kupfer.py focus=on
+bspc rule -a Screenkey manage=off
+
+bspc rule -a Emacs state=tiled
+
+xautolock -detectsleep -time 5 -locker "i3lock -n -i /home/vyej/pic/111.png" #-killtime 20 -killer "systemctl suspend" lock after inactivity and then sleep
