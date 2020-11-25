@@ -42,7 +42,11 @@ layout: default
     <div class="post-tags">
       <span>{{ site.data.lang[site.language].post_tags }}</span>
       {% for tag in page.tags %}
-      <span class="post-tag">{{ tag }}</span>
+      <a
+        href="{{ site.baseurl }}/tags#{{ tag }}"
+        class="post-tag">
+        {{ tag }}
+      </a>
       {% endfor %}
     </div>
     <div class="post-other">
