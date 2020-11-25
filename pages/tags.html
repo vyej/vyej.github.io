@@ -1,23 +1,36 @@
 ---
-layout: default
+layout: page
+title: Tag
+permalink: /tags/
+icon: octicon-tag
+isNavItem: true
+styles: [tagCloud.css,tags.css]
+scripts: [tagCloud.js,tags.js]
 ---
 
-<div class="well article">
-{% assign sortedtags = site.tags | sort %}
-{% for tag in sortedtags %}
-    <h2>{{ tag[0] | capitalize }}</h2>
-    <ul>
-        {% assign pages_list = tag[1] %}
-        {% for node in pages_list %}
-            {% if node.title != null %}
-            {% if group == null or group == node.group %}
-                <li><span class="post-date">
-                    {% assign date_format = site.date_format.tag %}
-                    {{ node.date | date: date_format }} </span></span><a href="{{ site.baseurl}}{{ node.url }}"> {{ node.title }}</a></li>
-            {% endif %}
-            {% endif %}
-        {% endfor %}
-        {% assign pages_list = nil %}
-    </ul>
-{% endfor %}    
+<div class="tagCloud">
+    {% for tag in site.tags %}
+    <a href="#{{ tag | first }}">{{ tag | first }}</a>
+    {% endfor %}
 </div>
+
+<div>
+    <ul class="tag-box inline">
+        {% for tag in site.tags %}
+        <li><a href="#{{ tag | first }}">{{ tag | first }}<span>{{ tag | last | size }}</span></a></li>
+        {% endfor %}
+    </ul>
+</div>
+
+<div>
+    {% for tag in site.tags %}
+    <h2 id="{{ tag | first }}">{{ tag | first }}</h2>
+    <ul>
+        {% for posts in tag  %}{% for post in posts %}{% if post.title != null %}
+        <li itemscope><span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date_to_string }}</time></span> &raquo; <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a></li>
+        {% endif %}{% endfor %}{% endfor %}
+    </ul>
+    {% endfor %}
+</div>
+
+

@@ -14,6 +14,9 @@ layout: default
   <div class="post-content">
     {{ content }}
   </div>
+
+  ------------
+  
   <div class="post-info">
     <div class="post-date">
       {{ site.data.lang[site.language].post_write_date}}
@@ -23,13 +26,9 @@ layout: default
         {{ site.data.lang[site.language].post_update_date}}
         {{ page.last_modified_at | date: '%Y-%m-%d' }}
       {% endif %}
-      .
+      
     </div>
-    {% if site.name %}
-    <div class="post-author">
-      {{ site.data.lang[site.language].post_author }}{{ site.name }}
-    </div>
-    {% endif %}
+    
     <div class="post-categories">
       <span>{{ site.data.lang[site.language].post_categories }}</span>
       {% for category in page.categories %}
@@ -68,8 +67,6 @@ layout: default
       </div>
       {% endif %}
     </div>
-    {% if site.comments %}
-      {% include comments.html %}
-    {% endif %}
+  
   </div>
 </article>
