@@ -4,5 +4,5 @@
 - default: menu_category
   url: 'categories'
 
-- default: tags
+- default: menu_tag
   url: 'tags'
