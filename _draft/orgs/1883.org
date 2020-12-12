@@ -1,0 +1,19 @@
+#+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
+#+OPTIONS: author:t broken-links:nil c:nil creator:nil
+#+OPTIONS: d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t num:t
+#+OPTIONS: p:nil pri:nil prop:nil stat:t tags:t tasks:t tex:t
+#+OPTIONS: timestamp:t title:t toc:t todo:t |:t
+#+TITLE: 1883
+#+DATE: <2020-07-28 Tue>
+#+AUTHOR:
+#+EMAIL: vyej@vx23
+#+LANGUAGE: en
+#+SELECT_TAGS: export
+#+EXCLUDE_TAGS: noexport
+#+CREATOR: Emacs 26.3 (Org mode 9.1.9)
+
+
+* 狄爾泰
+
+在1883年復活節，狄爾泰寫下人文科學導論的作者前言：“因爲我的任務引導我穿越知識的各種領域，各種的錯誤也將會得到原諒。我只希望這一工作在一定程度上完成統一本質的、歷史的和系統的見解的任務，這是法學家、政治家、神學家和歷史學家在他們個別學科中進行成功研究所需要的基礎。”
+

@@ -1,0 +1,62 @@
+#+TITLE: 過度解讀
+#+DATE: <2017-11-24 Fri>
+#+AUTHOR: z
+#+EMAIL: 
+#+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
+#+OPTIONS: author:t c:nil creator:comment d:(not "LOGBOOK") date:t
+#+OPTIONS: e:t email:nil f:t inline:t num:t p:nil pri:nil stat:t
+#+OPTIONS: tags:t tasks:t tex:t timestamp:t toc:t todo:t |:t
+#+CREATOR: Emacs 24.5.1 (Org mode 8.2.10)
+#+DESCRIPTION:
+#+EXCLUDE_TAGS: noexport
+#+KEYWORDS:
+#+LANGUAGE: en
+#+SELECT_TAGS: export
+#+OPTIONS: html-link-use-abs-url:nil html-postamble:auto
+#+OPTIONS: html-preamble:t html-scripts:t html-style:t
+#+OPTIONS: html5-fancy:nil tex:t
+#+CREATOR: <a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.5.1 (<a href="http://orgmode.org">Org</a> mode 8.2.10)
+#+HTML_CONTAINER: div
+#+HTML_DOCTYPE: xhtml-strict
+#+HTML_HEAD:
+#+HTML_HEAD_EXTRA:
+#+HTML_LINK_HOME:
+#+HTML_LINK_UP:
+#+HTML_MATHJAX:
+#+INFOJS_OPT:
+#+LATEX_HEADER:
+
+
+*寫在前面*
+
+其實應該是最早追溯到一直想寫的關於閱讀的事情。畢竟這也是好像這麼多年一直在做的事情？如此表述好似有雖然有點不妥，貌似也沒有太大錯誤。雖然閱讀也分很多種，不過這裏就限制在這個虛張聲勢的一種。
+
+
+* 誰的米蘭·昆德拉
+
+
+
+* 海德格爾的勞作
+
+* 讀維特根斯坦全集 
+
+** 緣起
+應該還是多年之前，在王府井的新華書店，一樓新書那裏赫然擺放着維特根斯坦全集。那時候應該已經看過邏輯哲學論和哲學研究了，雖然最早看的維特根斯坦是《論確定性》，就是廣西師大那套雅典娜小冊子裏面的一本，那和另外一本《西西弗的神話》應該是高中時候的啓蒙讀物了。雖然也是多年之後再次發現《西西弗的神話》裏面到處在引用胡塞爾、海德格爾的時候，已經覺得西西弗這個其實還是有點過於文學化了，不過當時貌似完全沒有概念，甚至都沒有意識到這些名字的重要性。話說，在看見這個全集的時候，第一反映是我靠，還有這種操作的心情，然後第二反映，好像也不是很多呀，這個全集，想想什麼馬克思恩格斯全集的樣子，應該可以讀完呀。這應該就是起因了。第三個反映是，哎呀，這個有一點貴呀，買不起。那先記下這個事情。這好像應該是大二還是大三時候的事。
+
+然後大學期間肯定是來不及讀的了。
+
+研究生時候惦記過一陣，說是先從英文版的邏輯哲學論開始，一邊翻譯一邊latex，不過就和研究生時候的很多各種計劃一樣，最終還是未遂。然後心心念念說的是我的團長我的團裏面一句臺詞：如此大中國竟然放不下一張書桌。
+
+作爲關鍵詞的書桌。
+
+大抵可能那時候放了好多高級微觀、實分析、PHP一類的書，然後大概就沒有了維特根斯坦的書桌了。
+
+時間飛快。一晃就是小10年了，從大學畢業到現在。也算今年大概做成了的一件事？算是看完了一遍這個中譯本的維特根斯坦全集。
+
+然後只是想，“做成”一件事應該有點什麼痕跡的時候，發現其實好像什麼也沒有改變呀。然後才有了這個嘗試。
+
+** 關於中譯本的一點想法
+
+與其說是關於這個中譯本，還不如說是關於維特根斯坦中文翻譯的，一點想法。雖然其實應該沒有很多翻譯理論的事情，畢竟關於那些應該沉默的，好像和翻譯之間還有這麼一點過節一類。其實也可以放在一個更大的背景中，比如維特根斯坦的翻譯一類的問題中。不過細化一點，畢竟是使用中文來着。畢竟對於中文其實還是受惠實多。所以也是一個關於中文語境的問題。
+
+大而化之，有點類似中文語境中的西方哲學。這應該是這次閱讀中的第一個焦慮。

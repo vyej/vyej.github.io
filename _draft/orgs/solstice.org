@@ -1,0 +1,20 @@
+#+TITLE: solstice
+#+DATE: <2018-10-14 Sun>
+#+AUTHOR: vyej
+#+EMAIL: vyej@ir.local
+#+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
+#+OPTIONS: author:t c:nil creator:comment d:(not "LOGBOOK") date:t
+#+OPTIONS: e:t email:nil f:t inline:t num:t p:nil pri:nil stat:t
+#+OPTIONS: tags:t tasks:t tex:t timestamp:t toc:t todo:t |:t
+#+CREATOR: Emacs 25.3.1 (Org mode 8.2.10)
+#+DESCRIPTION:
+#+EXCLUDE_TAGS: noexport
+#+KEYWORDS:
+#+LANGUAGE: en
+#+SELECT_TAGS: export
+
+
+
+如何記錄或者應該用書寫更貼切一點——如何書寫某種狀態。貌似困境，從哪裏到哪裏呢。首先還是需要確定一個主角吧。作爲某種自我的可能性還是某種自我的可能性的寄託。說，保持可能性的重要性，好像這樣就可以無所不能。所以還是可以從某種漫長夏日開始我們的故事？如果故事就是沒有故事呢。假設，有兩種書寫：一種是克制的，比如克制於某種現實的關聯性，比如超級英雄不存在；另一種是放棄了現實的關聯性的，比如具有超級能力的超級英雄，然後由於其限制性邊界的不確定，所以很容易就演變出很多關聯的宇宙來。只是故事必然有其界限，所以還是有意識地邊界更容易出精彩的故事。只是故事精彩是爲了什麼呢。這有關書寫的人和閱讀的人？
+
+一度我都在想像着一個關於w鎮的故事。

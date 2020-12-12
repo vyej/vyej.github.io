@@ -1,0 +1,33 @@
+#+TITLE: brutum fulmen
+#+DATE: <2018-02-23 Fri>
+#+AUTHOR: z
+#+EMAIL: zz@zdeMac-mini.local
+#+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
+#+OPTIONS: author:t c:nil creator:comment d:(not "LOGBOOK") date:t
+#+OPTIONS: e:t email:nil f:t inline:t num:t p:nil pri:nil stat:t
+#+OPTIONS: tags:t tasks:t tex:t timestamp:t toc:t todo:t |:t
+#+CREATOR: Emacs 24.5.1 (Org mode 8.2.10)
+#+DESCRIPTION:
+#+EXCLUDE_TAGS: noexport
+#+KEYWORDS:
+#+LANGUAGE: en
+#+SELECT_TAGS: export
+
+
+# +BEGIN_QUOTE
+將數值作爲“簡單數據”看待實際上完全是一種虛張聲勢。事實上，對於數值的處理是任何程序設計語言里最錯綜複雜而且也是最迷惑人的事項之一，其中涉及的典型問題包括：某些計算機系統區分了整數（例如2）和實數（例如2.71）。那麼實數2.00和整數2不同嗎？用於整數的算數運算是否與用於實數的運算相同呢？用6除以2的結果是3還是3.0？我們可以表示的最大的數是多少？
+
+——計算機程序的構造和解釋（SICP）第2版
+# +END_QUOTE
+
+
+* 虛張聲勢的閱讀
+可以如此開頭——應該引用誰說過的話——如何寫作也如何閱讀。於是有了這個書寫計劃的書寫。——這大概就是虛張聲勢的來由了吧。說起來，應該叫自己全然不知道應該如何書寫呀：節制的界限和筆下的歡愉應該如何區分——這大概體現的是最近讀了好多的網絡小說，大抵就是單純爲了看個爽一類。雖然仔細定義爽似乎也很有問題，所以更準確地說應該是都沒有來得及去體會一下爽而已，大抵就是單純的一時爽快。
+
+
+*  從昆德拉開始吧，還是
+
+** 誰的玩笑
+年輕時候讀昆德拉，總是覺得暗爽，那時候總是覺得再也沒有更合心意的小說家了吧。王小波過於迷惑了，杜拉斯是用來吹牛的，塞林格？完全不知道那麼大的名氣怎麼來的，這個青少年小說完全沒有深感覺呀，反倒村上春樹才應該叫青春小說的吧。只有昆德拉總是恰到好處地
+
+
