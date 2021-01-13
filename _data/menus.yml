@@ -7,8 +7,8 @@
 - title: 'Tags'
   url: 'tags'
 
-- title: 'Pages'
-  url: 'page_index'
+- title: 'Emacs''
+  url: 'emacs'
     
 - default: menu_about
   url: 'about'
