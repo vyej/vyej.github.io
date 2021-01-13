@@ -1,0 +1,103 @@
+#+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
+#+OPTIONS: author:t broken-links:nil c:nil creator:nil
+#+OPTIONS: d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t num:t
+#+OPTIONS: p:nil pri:nil prop:nil stat:t tags:t tasks:t tex:t
+#+OPTIONS: timestamp:t title:t toc:t todo:t |:t
+#+TITLE: （星辰的漫遊構成了時間）——作爲一種生活方式的emacs
+#+DATE: 
+#+LANGUAGE: en
+#+SELECT_TAGS: export
+#+EXCLUDE_TAGS: noexport
+#+CREATOR: Emacs 26.3 (Org mode 9.1.9)
+#+OPTIONS: html-link-use-abs-url:nil html-postamble:auto
+#+OPTIONS: html-preamble:t html-scripts:t html-style:t
+#+OPTIONS: html5-fancy:nil tex:t
+#+HTML_DOCTYPE: xhtml-strict
+#+HTML_CONTAINER: div
+#+DESCRIPTION:
+#+KEYWORDS:
+#+HTML_LINK_HOME:
+#+HTML_LINK_UP:
+#+HTML_MATHJAX:
+#+HTML_HEAD:
+#+HTML_HEAD_EXTRA:
+#+SUBTITLE:
+#+INFOJS_OPT:
+#+CREATOR: <a href="https://www.gnu.org/software/emacs/">Emacs</a> 26.3 (<a href="https://orgmode.org">Org</a> mode 9.1.9)
+#+LATEX_HEADER:
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+
+* 引言：頭上的星空？
+一個技術博客爲什麼需要引言？好吧，什麼時候，給自己的定位成爲了技術博客了呢。恐怕還是github的關係吧。只是，換個角度來說，如何更有價值的書寫呢。不論是對於書寫的人還是閱讀的人來說。然後就貌似存在了多種層次的價值……從類似書寫癖的發泄到滿足虛榮的所謂記錄，從甚至有些無恥的yy到……，好吧，貌似也不得不承認的，總會回到類似的問題——頭上的星空……
+
+
+
+
+* 作爲關鍵詞的emacs
+
+** 學習emacs
+
+*** emacs是什麼，以及不是什麼
+
+*** 一點筆記
+
+  [[file:emac.org][emacs 筆記]]
+
+
+** 在多大程度上，我們說emacs的時候預設的是linux
+
+*** 操作系統之夢
+
+
+*** 學習筆記？
+  [[file:linux.org][linux學習筆記]]
+
+
+* 社會學的焦慮
+
+** 焦慮，以及爲什麼是社會學的？
+
+
+** 媒介，以及樹洞
+
+[[https://vyej.github.io/waiting2del/][樹洞？]]
+
+
+* 如何閱讀算法導論
+
+
+* 當我們談論生活方式的時候
+
+** 煩或者操持？
+
+*** 下落的模型
+說，生活不過就是一直地下落
+
+……
+
+*** 計劃一點什麼？
+
+以期望着某種價值之生成或者改變？
+
+[[file:nothing.org][試圖計劃]]
+
+
+** 閱讀的重要性？
+
+[[https://vyej.github.io/holzwege/][某種筆記？]]
+
+
+* 機械鍵盤朋克與solarized
+
+
+
+* 作爲一種生活方式的emacs
+** 生活方式的問題    
+
+*** 起源
+
+
+
+
+
