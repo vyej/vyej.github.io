@@ -7,8 +7,8 @@
 - title: 'Tags'
   url: 'tags'
 
-- title: '...'
-  url: 'index'
+- title: 'Pages'
+  url: 'page_index'
     
 - default: menu_about
   url: 'about'
