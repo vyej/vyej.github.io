@@ -1,0 +1,47 @@
+#+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
+#+OPTIONS: author:t broken-links:nil c:nil creator:nil
+#+OPTIONS: d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t num:t
+#+OPTIONS: p:nil pri:nil prop:nil stat:t tags:t tasks:t tex:t
+#+OPTIONS: timestamp:t title:t toc:t todo:t |:t
+#+TITLE: 漫長的暑假至今
+#+DATE: 
+#+AUTHOR:
+#+LANGUAGE: en
+#+SELECT_TAGS: export
+#+EXCLUDE_TAGS: noexport
+#+CREATOR: Emacs 26.3 (Org mode 9.1.9)
+#+OPTIONS: html-link-use-abs-url:nil html-postamble:auto
+#+OPTIONS: html-preamble:t html-scripts:t html-style:t
+#+OPTIONS: html5-fancy:nil tex:t
+#+HTML_DOCTYPE: xhtml-strict
+#+HTML_CONTAINER: div
+#+DESCRIPTION:
+#+KEYWORDS:
+#+HTML_LINK_HOME:
+#+HTML_LINK_UP:
+#+HTML_MATHJAX:
+#+HTML_HEAD:
+#+HTML_HEAD_EXTRA:
+#+SUBTITLE:
+#+INFOJS_OPT:
+#+CREATOR: <a href="https://www.gnu.org/software/emacs/">Emacs</a> 26.3 (<a href="https://orgmode.org">Org</a> mode 9.1.9)
+#+LATEX_HEADER:
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/org.css" />
+
+
+
+* 孟德斯鳩與跑步
+
+** 2020年6月
+孟德斯鳩是一個體面的人。在2020年夏天，我總算基本上讀完了孟德斯鳩的幾個中譯本，說起來，其實也不過三部著作：論法的精神、波斯人信札、論羅馬盛衰的原因。其實貌似波斯人信札中譯本最多？論法的精神好像也不少。基本上讀完的意思就是，其實只是讀了其中的一個譯本。
+
+在此之前，其實我也不是很理解所謂體面的人是什麼一種概念。大抵就是雞蛋和高牆選擇了雞蛋的那一種？不過之後，似乎覺得，過於簡單化之後，其實可能就不那麼體面了。
+
+在此之前，其實我也想過很多故事的開頭，比如：整整的一個夏天，我都在糾結着是應該去閱讀孟德斯鳩，還是去跑步。雖然最後的選擇，更多時候是看了又一部娛樂而已的電影。雖然實際上應該操心的事情很多，畢業啦、工作啦、論文啦，但實際上，真正讓我糾結的，只有一個：到底應該是去跑步還是看論法的精神。
+
+關於跑步，貌似
+
+
+
+
+* 還有
