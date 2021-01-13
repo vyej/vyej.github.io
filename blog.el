@@ -9,7 +9,7 @@
 	("posts"
 	 :base-directory "~/vyej.github.io/orgs/"
 	 :base-extension "org"
-	 :publishing-directory "~/vyej.github.io/pages/"
+	 :publishing-directory "~/vyej.github.io/"
  	 :recursive t
 	 :publishing-function org-html-publish-to-html
 	 :headline-levels 5             
@@ -19,7 +19,7 @@
 	 ("static"
 	  :base-directory "~/vyej.github.io/orgs/"
 	  :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|swf"
-	  :publishing-directory "~/vyej.github.io/pages/"
+	  :publishing-directory "~/vyej.github.io/"
 	  :recursive t
 	  :publishing-function org-publish-attachment
 	 )
