@@ -9,6 +9,8 @@
 
 - title: 'Emacs'
   url: 'emacs'
+
+- title: 'R'
     
 - default: menu_about
   url: 'about'
