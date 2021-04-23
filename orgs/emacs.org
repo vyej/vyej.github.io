@@ -55,13 +55,13 @@
 
 ** 跑步還是run away？
 
-[[https://vyej.github.io/runing.html][跑步的日子里大抵是積極向上的]]
+[[file:runing.org][跑步的日子里大抵是積極向上的]]
 
 
 * 機械鍵盤朋克與solarized
 
 ** 關於夏天
-[[https://vyej.github.io/summer][漫長的暑假至今]]
+[[file:summer.org][漫長的暑假至今]]
 
 
 

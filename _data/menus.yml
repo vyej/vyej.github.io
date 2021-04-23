@@ -11,6 +11,7 @@
   url: 'emacs'
 
 - title: 'R'
-    
+  url: 'R'    
+
 - default: menu_about
   url: 'about'
