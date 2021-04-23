@@ -3,7 +3,7 @@
 #+OPTIONS: d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t num:t
 #+OPTIONS: p:nil pri:nil prop:nil stat:t tags:t tasks:t tex:t
 #+OPTIONS: timestamp:t title:t toc:t todo:t |:t
-#+TITLE: （星辰的漫遊構成了時間）——作爲一種生活方式的emacs
+#+TITLE: 作爲一種生活方式的emacs
 #+DATE: 
 #+LANGUAGE: en
 #+SELECT_TAGS: export
@@ -57,11 +57,24 @@
 
 [[file:runing.org][跑步的日子里大抵是積極向上的]]
 
-
-* 機械鍵盤朋克與solarized
-
 ** 關於夏天
+
 [[file:summer.org][漫長的暑假至今]]
+
+
+
+* 機械鍵盤朋克與solarized金屬
+
+** 機械鍵盤朋克
+
+爲什麼莫名就想加上##蒸汽##兩個字。
+
+
+** solarized金屬
+
+
+
+
 
 
 

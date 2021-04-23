@@ -3,11 +3,12 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2021-04-23 Fri 17:25 -->
+<!-- 2021-04-24 六 01:04 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>（星辰的漫遊構成了時間）——作爲一種生活方式的emacs</title>
+<title>作爲一種生活方式的emacs</title>
 <meta name="generator" content="Org mode" />
+<meta name="author" content="vy" />
 <style type="text/css">
  <!--/*--><![CDATA[/*><!--*/
   .title  { text-align: center;
@@ -39,7 +40,7 @@
   }
   pre.src {
     position: relative;
-    overflow: auto;
+    overflow: visible;
     padding-top: 1.2em;
   }
   pre.src:before {
@@ -51,7 +52,7 @@
     padding: 3px;
     border: 1px solid black;
   }
-  pre.src:hover:before { display: inline; margin-top: 14px;}
+  pre.src:hover:before { display: inline;}
   /* Languages per Org manual */
   pre.src-asymptote:before { content: 'Asymptote'; }
   pre.src-awk:before { content: 'Awk'; }
@@ -192,63 +193,88 @@
   .org-svg { width: 90%; }
   /*]]>*/-->
 </style>
-
 <link rel="stylesheet" type="text/css" href="css/style.css" />
 <script type="text/javascript">
-// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2020 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
 <!--/*--><![CDATA[/*><!--*/
-     function CodeHighlightOn(elem, id)
-     {
-       var target = document.getElementById(id);
-       if(null != target) {
-         elem.classList.add("code-highlighted");
-         target.classList.add("code-highlighted");
-       }
-     }
-     function CodeHighlightOff(elem, id)
-     {
-       var target = document.getElementById(id);
-       if(null != target) {
-         elem.classList.remove("code-highlighted");
-         target.classList.remove("code-highlighted");
-       }
-     }
-    /*]]>*///-->
-// @license-end
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
 </script>
 </head>
 <body>
 <div id="content">
-<h1 class="title">（星辰的漫遊構成了時間）——作爲一種生活方式的emacs</h1>
+<h1 class="title">作爲一種生活方式的emacs</h1>
 <div id="table-of-contents">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orge4e04d3">1. 引言：頭上的星空？</a></li>
-<li><a href="#org407ddf3">2. 作爲關鍵詞的emacs</a>
+<li><a href="#org60b5634">1. 引言：頭上的星空？</a></li>
+<li><a href="#org9d13357">2. 作爲關鍵詞的emacs</a>
 <ul>
-<li><a href="#org3ec4480">2.1. 學習emacs</a>
+<li><a href="#org927d845">2.1. 學習emacs</a>
 <ul>
-<li><a href="#org125f38f">2.1.1. emacs是什麼，以及不是什麼</a></li>
-<li><a href="#orgd4a31f5">2.1.2. 一點筆記</a></li>
-<li><a href="#org2646e4f">2.1.3. 操作系統之夢</a></li>
+<li><a href="#orgc9232ad">2.1.1. emacs是什麼，以及不是什麼</a></li>
+<li><a href="#orgea28d8b">2.1.2. 一點筆記</a></li>
+<li><a href="#orgd79088f">2.1.3. 操作系統之夢</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#org5f1a56a">3. 當我們談論生活方式的時候</a>
+<li><a href="#orgf81a779">3. 當我們談論生活方式的時候</a>
 <ul>
-<li><a href="#org1c0d220">3.1. 煩或者操持？</a>
+<li><a href="#orge379d7c">3.1. 煩或者操持？</a>
 <ul>
-<li><a href="#org248cffd">3.1.1. 下落的模型</a></li>
+<li><a href="#org1740db3">3.1.1. 下落的模型</a></li>
 </ul>
 </li>
-<li><a href="#orgbb4901d">3.2. 跑步還是run away？</a></li>
+<li><a href="#orgf800b32">3.2. 跑步還是run away？</a></li>
+<li><a href="#orgc031fb7">3.3. 關於夏天</a></li>
 </ul>
 </li>
-<li><a href="#org55f2a58">4. 機械鍵盤朋克與solarized</a>
+<li><a href="#orgc64806e">4. 機械鍵盤朋克與solarized金屬</a>
 <ul>
-<li><a href="#org169ffa2">4.1. 關於夏天</a></li>
+<li><a href="#orgbe59eb8">4.1. 機械鍵盤朋克</a></li>
+<li><a href="#org47a2f74">4.2. solarized金屬</a></li>
 </ul>
 </li>
 </ul>
@@ -256,8 +282,8 @@
 </div>
 
 
-<div id="outline-container-orge4e04d3" class="outline-2">
-<h2 id="orge4e04d3"><span class="section-number-2">1</span> 引言：頭上的星空？</h2>
+<div id="outline-container-org60b5634" class="outline-2">
+<h2 id="org60b5634"><span class="section-number-2">1</span> 引言：頭上的星空？</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 一個技術博客爲什麼需要引言？好吧，什麼時候，給自己的定位成爲了技術博客了呢。恐怕還是github的關係吧。只是，換個角度來說，如何更有價值的書寫呢。不論是對於書寫的人還是閱讀的人來說。然後就貌似存在了多種層次的價值……從類似書寫癖的發泄到滿足虛榮的所謂記錄，從甚至有些無恥的yy到……，好吧，貌似也不得不承認的，總會回到類似的問題——頭上的星空……
@@ -266,20 +292,20 @@
 </div>
 
 
-<div id="outline-container-org407ddf3" class="outline-2">
-<h2 id="org407ddf3"><span class="section-number-2">2</span> 作爲關鍵詞的emacs</h2>
+<div id="outline-container-org9d13357" class="outline-2">
+<h2 id="org9d13357"><span class="section-number-2">2</span> 作爲關鍵詞的emacs</h2>
 <div class="outline-text-2" id="text-2">
 </div>
-<div id="outline-container-org3ec4480" class="outline-3">
-<h3 id="org3ec4480"><span class="section-number-3">2.1</span> 學習emacs</h3>
+<div id="outline-container-org927d845" class="outline-3">
+<h3 id="org927d845"><span class="section-number-3">2.1</span> 學習emacs</h3>
 <div class="outline-text-3" id="text-2-1">
 </div>
-<div id="outline-container-org125f38f" class="outline-4">
-<h4 id="org125f38f"><span class="section-number-4">2.1.1</span> emacs是什麼，以及不是什麼</h4>
+<div id="outline-container-orgc9232ad" class="outline-4">
+<h4 id="orgc9232ad"><span class="section-number-4">2.1.1</span> emacs是什麼，以及不是什麼</h4>
 </div>
 
-<div id="outline-container-orgd4a31f5" class="outline-4">
-<h4 id="orgd4a31f5"><span class="section-number-4">2.1.2</span> 一點筆記</h4>
+<div id="outline-container-orgea28d8b" class="outline-4">
+<h4 id="orgea28d8b"><span class="section-number-4">2.1.2</span> 一點筆記</h4>
 <div class="outline-text-4" id="text-2-1-2">
 <p>
 <a href="emac.html">emacs 筆記</a>
@@ -287,22 +313,22 @@
 </div>
 </div>
 
-<div id="outline-container-org2646e4f" class="outline-4">
-<h4 id="org2646e4f"><span class="section-number-4">2.1.3</span> 操作系統之夢</h4>
+<div id="outline-container-orgd79088f" class="outline-4">
+<h4 id="orgd79088f"><span class="section-number-4">2.1.3</span> 操作系統之夢</h4>
 </div>
 </div>
 </div>
 
-<div id="outline-container-org5f1a56a" class="outline-2">
-<h2 id="org5f1a56a"><span class="section-number-2">3</span> 當我們談論生活方式的時候</h2>
+<div id="outline-container-orgf81a779" class="outline-2">
+<h2 id="orgf81a779"><span class="section-number-2">3</span> 當我們談論生活方式的時候</h2>
 <div class="outline-text-2" id="text-3">
 </div>
-<div id="outline-container-org1c0d220" class="outline-3">
-<h3 id="org1c0d220"><span class="section-number-3">3.1</span> 煩或者操持？</h3>
+<div id="outline-container-orge379d7c" class="outline-3">
+<h3 id="orge379d7c"><span class="section-number-3">3.1</span> 煩或者操持？</h3>
 <div class="outline-text-3" id="text-3-1">
 </div>
-<div id="outline-container-org248cffd" class="outline-4">
-<h4 id="org248cffd"><span class="section-number-4">3.1.1</span> 下落的模型</h4>
+<div id="outline-container-org1740db3" class="outline-4">
+<h4 id="org1740db3"><span class="section-number-4">3.1.1</span> 下落的模型</h4>
 <div class="outline-text-4" id="text-3-1-1">
 <p>
 說，生活不過就是一直地下落
@@ -315,34 +341,50 @@
 </div>
 </div>
 
-<div id="outline-container-orgbb4901d" class="outline-3">
-<h3 id="orgbb4901d"><span class="section-number-3">3.2</span> 跑步還是run away？</h3>
+<div id="outline-container-orgf800b32" class="outline-3">
+<h3 id="orgf800b32"><span class="section-number-3">3.2</span> 跑步還是run away？</h3>
 <div class="outline-text-3" id="text-3-2">
 <p>
 <a href="runing.html">跑步的日子里大抵是積極向上的</a>
 </p>
 </div>
 </div>
-</div>
 
-
-<div id="outline-container-org55f2a58" class="outline-2">
-<h2 id="org55f2a58"><span class="section-number-2">4</span> 機械鍵盤朋克與solarized</h2>
-<div class="outline-text-2" id="text-4">
-</div>
-<div id="outline-container-org169ffa2" class="outline-3">
-<h3 id="org169ffa2"><span class="section-number-3">4.1</span> 關於夏天</h3>
-<div class="outline-text-3" id="text-4-1">
+<div id="outline-container-orgc031fb7" class="outline-3">
+<h3 id="orgc031fb7"><span class="section-number-3">3.3</span> 關於夏天</h3>
+<div class="outline-text-3" id="text-3-3">
 <p>
 <a href="summer.html">漫長的暑假至今</a>
 </p>
 </div>
 </div>
 </div>
+
+
+
+<div id="outline-container-orgc64806e" class="outline-2">
+<h2 id="orgc64806e"><span class="section-number-2">4</span> 機械鍵盤朋克與solarized金屬</h2>
+<div class="outline-text-2" id="text-4">
+</div>
+<div id="outline-container-orgbe59eb8" class="outline-3">
+<h3 id="orgbe59eb8"><span class="section-number-3">4.1</span> 機械鍵盤朋克</h3>
+<div class="outline-text-3" id="text-4-1">
+<p>
+爲什麼莫名就想加上##蒸汽##兩個字。
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-org47a2f74" class="outline-3">
+<h3 id="org47a2f74"><span class="section-number-3">4.2</span> solarized金屬</h3>
+</div>
+</div>
 </div>
 <div id="postamble" class="status">
-<p class="date">Created: 2021-04-23 Fri 17:25</p>
-<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+<p class="author">Author: vy</p>
+<p class="date">Created: 2021-04-24 六 01:04</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
 </html>
