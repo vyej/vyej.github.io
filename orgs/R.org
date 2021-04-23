@@ -4,7 +4,7 @@
 #+OPTIONS: p:nil pri:nil prop:nil stat:t tags:t tasks:t tex:t
 #+OPTIONS: timestamp:t title:t toc:t todo:t |:t
 #+TITLE: R语言笔记
-#+DATE: <2020-04-27 Mon>
+#+DATE: <2021-04-27 Mon>
 #+AUTHOR:
 #+LANGUAGE: en
 #+SELECT_TAGS: export
@@ -34,6 +34,9 @@
 
 
 * 读书笔记
+
+** littlebook系列：R與計量
+
 
  
 * 统计笔记

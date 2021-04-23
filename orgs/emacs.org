@@ -40,7 +40,7 @@
 
 *** 一點筆記
 
-  [[file:emac.org][emacs 筆記]]
+  [[https://vyej.github.io/org2html/emac.html][emacs 筆記]]
 
 *** 操作系統之夢
 
@@ -55,11 +55,11 @@
 
 ** 跑步還是run away？
 
-[[file:runing.org][跑步的日子里大抵是積極向上的]]
+[[https://vyej.github.io/org2html/runing.html][跑步的日子里大抵是積極向上的]]
 
 ** 關於夏天
 
-[[file:summer.org][漫長的暑假至今]]
+[[https://vyej.github.io/org2html/summer.html][漫長的暑假至今]]
 
 
 
