@@ -1,0 +1,29 @@
+#+options: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
+#+options: author:t broken-links:nil c:nil creator:nil
+#+options: d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t num:t
+#+options: p:nil pri:nil prop:nil stat:t tags:t tasks:t tex:t
+#+options: timestamp:t title:t toc:t todo:t |:t
+#+title: 11年
+#+date: <2021-04-28 Wed>
+#+author: fedo
+#+email: fedo@vy
+#+language: en
+#+select_tags: export
+#+exclude_tags: noexport
+#+creator: Emacs 27.1 (Org mode 9.3)
+
+
+## 最前面
+好像也說不清楚這個11年的數字從哪裏來。2009到2020？其實是自己消沉、沮喪和不甘的時候想到的書寫吧。可以更好地面對自己的陰暗面。雖然感覺想月球一樣，我們可能永遠也不知道那一面有什麼。所以，如果有另外一個時空里的自我呢。
+
+大概也不過是某種可能性的自我意淫了。說，如何證明這些書寫不是在意淫呢。突然覺得這無比的困難——似乎關涉到了某種書寫的根本結構。或者存在。或者實質。或者，也沒有什麼了，本來就無物存在。
+
+或者本來被光亮找到就意味了某種狀態——來存在？有點想海德格爾的說法麼，突然覺得其實阿論特也是走來走去沒有走出的林中路。還是光落在了哪裏。
+
+然後，突然意識到這個的時候，其實應該已經2021年了呀。雖然應該最早還是2020時候就覺得貌似世界發生了某種巨大的變化。類似土星的影響？雖然具體是什麼我們可能還是茫然不知。
+
+只是如果今年還不能寫完這個的話。是不是更不知道應該是多少年了。算是激勵或者最開始的自我吐槽。
+
+* 2020年5月
+
+從過年開始的計劃的孟德斯鳩，終於看完了的論法的精神。雖然最早的動機可能已經難以追尋。不過最直接的誘因應該還是看了施特勞斯的講稿。
