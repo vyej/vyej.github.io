@@ -3,10 +3,10 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2021-05-06 Thu 19:50 -->
+<!-- 2021-04-24 六 01:04 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>跑步的日子里大抵是積極向上的</title>
+<title>漫長的暑假至今</title>
 <meta name="generator" content="Org mode" />
 <style type="text/css">
  <!--/*--><![CDATA[/*><!--*/
@@ -39,7 +39,7 @@
   }
   pre.src {
     position: relative;
-    overflow: auto;
+    overflow: visible;
     padding-top: 1.2em;
   }
   pre.src:before {
@@ -51,7 +51,7 @@
     padding: 3px;
     border: 1px solid black;
   }
-  pre.src:hover:before { display: inline; margin-top: 14px;}
+  pre.src:hover:before { display: inline;}
   /* Languages per Org manual */
   pre.src-asymptote:before { content: 'Asymptote'; }
   pre.src-awk:before { content: 'Awk'; }
@@ -192,68 +192,109 @@
   .org-svg { width: 90%; }
   /*]]>*/-->
 </style>
-<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/org.css" />
 <script type="text/javascript">
-// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2020 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
 <!--/*--><![CDATA[/*><!--*/
-     function CodeHighlightOn(elem, id)
-     {
-       var target = document.getElementById(id);
-       if(null != target) {
-         elem.classList.add("code-highlighted");
-         target.classList.add("code-highlighted");
-       }
-     }
-     function CodeHighlightOff(elem, id)
-     {
-       var target = document.getElementById(id);
-       if(null != target) {
-         elem.classList.remove("code-highlighted");
-         target.classList.remove("code-highlighted");
-       }
-     }
-    /*]]>*///-->
-// @license-end
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
 </script>
 </head>
 <body>
 <div id="content">
-<h1 class="title">跑步的日子里大抵是積極向上的</h1>
+<h1 class="title">漫長的暑假至今</h1>
 <div id="table-of-contents">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orgad8efce">1. 關於跑步的吐槽</a></li>
-<li><a href="#orgbf56b20">2. 自覺一點</a></li>
-<li><a href="#org43a5033">3. 千篇一律</a></li>
-<li><a href="#org445c6ec">4. 體驗的覺醒</a></li>
+<li><a href="#org28c2ee9">1. 孟德斯鳩與跑步</a>
+<ul>
+<li><a href="#org582c307">1.1. 2020年6月</a></li>
+</ul>
+</li>
+<li><a href="#org943bc56">2. 還有</a></li>
 </ul>
 </div>
 </div>
+
+
+
+<div id="outline-container-org28c2ee9" class="outline-2">
+<h2 id="org28c2ee9"><span class="section-number-2">1</span> 孟德斯鳩與跑步</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-org582c307" class="outline-3">
+<h3 id="org582c307"><span class="section-number-3">1.1</span> 2020年6月</h3>
+<div class="outline-text-3" id="text-1-1">
 <p>
-<b><b>跑步的日子里大抵是積極向上的</b></b>
+孟德斯鳩是一個體面的人。在2020年夏天，我總算基本上讀完了孟德斯鳩的幾個中譯本，說起來，其實也不過三部著作：論法的精神、波斯人信札、論羅馬盛衰的原因。其實貌似波斯人信札中譯本最多？論法的精神好像也不少。基本上讀完的意思就是，其實只是讀了其中的一個譯本。
 </p>
 
-<div id="outline-container-orgad8efce" class="outline-2">
-<h2 id="orgad8efce"><span class="section-number-2">1</span> 關於跑步的吐槽</h2>
+<p>
+在此之前，其實我也不是很理解所謂體面的人是什麼一種概念。大抵就是雞蛋和高牆選擇了雞蛋的那一種？不過之後，似乎覺得，過於簡單化之後，其實可能就不那麼體面了。
+</p>
+
+<p>
+在此之前，其實我也想過很多故事的開頭，比如：整整的一個夏天，我都在糾結着是應該去閱讀孟德斯鳩，還是去跑步。雖然最後的選擇，更多時候是看了又一部娛樂而已的電影。雖然實際上應該操心的事情很多，畢業啦、工作啦、論文啦，但實際上，真正讓我糾結的，只有一個：到底應該是去跑步還是看論法的精神。
+</p>
+
+<p>
+關於跑步，貌似
+</p>
+</div>
+</div>
 </div>
 
-<div id="outline-container-orgbf56b20" class="outline-2">
-<h2 id="orgbf56b20"><span class="section-number-2">2</span> 自覺一點</h2>
-</div>
 
-<div id="outline-container-org43a5033" class="outline-2">
-<h2 id="org43a5033"><span class="section-number-2">3</span> 千篇一律</h2>
-</div>
 
-<div id="outline-container-org445c6ec" class="outline-2">
-<h2 id="org445c6ec"><span class="section-number-2">4</span> 體驗的覺醒</h2>
+
+<div id="outline-container-org943bc56" class="outline-2">
+<h2 id="org943bc56"><span class="section-number-2">2</span> 還有</h2>
 </div>
 </div>
 <div id="postamble" class="status">
-<p class="date">Date: 2021-01-13 Wed 00:00</p>
-<p class="date">Created: 2021-05-06 Thu 19:50</p>
-<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+<p class="date">Created: 2021-04-24 六 01:04</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
 </html>

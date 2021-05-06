@@ -26,15 +26,21 @@
 #+INFOJS_OPT:
 #+CREATOR: <a href="https://www.gnu.org/software/emacs/">Emacs</a> 26.3 (<a href="https://orgmode.org">Org</a> mode 9.1.9)
 #+LATEX_HEADER:
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/org.css" />
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/style.css" />
 
 
 # 一個測試
-使用rstudio下的rmarkdown生成網頁。[[https://vyej.github.io/rmarkdown/test.html][test]]
+使用rstudio下的rmarkdown生成網頁。貌似可行。所以就可以玩耍咯。然后这个算是一个目录么。test的网页就可以不放了吧，图片太大了。
+
+可能以后这也还是個問題。
 
 
 * 读书笔记
 
+** Le logiciel R（R軟件教程與統計分析：入門到精通）
+
+   法國人寫的R教程。
+   
 ** littlebook系列：R與計量
 
 
