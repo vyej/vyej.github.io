@@ -31,6 +31,8 @@ Wish you enjoying your blog life!
 
 - Dreiheit: computer/math/statistic
 
+- こもれび: some realities
+
 ## Tags
 
 > [经验]意味着：在不同地条件下观察食物本身、事物地特性及其变化，因而是关于事物在法则中地表现方式的知识。
