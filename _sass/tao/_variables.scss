@@ -15,11 +15,11 @@ $screen-desktop: 1024px;
   --body-color-light: var(--oc-gray-6);
   --body-color:       var(--oc-gray-8);
   --body-color-dark:  var(--oc-black);
-  --accent-color:     var(--oc-orange-8);
-  --message-color:    var(--oc-green-8);
+  --accent-color:     var(--oc-gray-5);
+  --message-color:    var(--oc-gray-8);
 
-  --body-font:        -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  --title-font:       'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  --body-font:        -apple-system, BlinkMacSystemFont, Microsoft YaHei,微软雅黑,宋体,STXihei,华文细黑,Arial,Verdana,arial, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  --title-font:       Microsoft YaHei,微软雅黑,宋体,STXihei,华文细黑,Arial,Verdana,arial,sans-serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   --code-font:        'Courier New', Courier, monospace;
   --line-height:      1.5;
   --body-font-size:   16px;
