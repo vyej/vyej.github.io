@@ -1,0 +1,40 @@
+/**
+ * Styles for the header
+ */
+
+.masthead {
+  margin-bottom: calc(3 * var(--spacing));
+  text-align: center;
+}
+
+.masthead-title {
+  display: inline;
+  margin: 0;
+
+  a {
+    color: inherit;
+
+    &:hover,
+    &:focus {
+      text-decoration: none;
+      color: var(--body-color-dark);
+    }
+  }
+}
+
+.masthead-tagline {
+  display: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: var(--body-color-light);
+}
+
+@media screen and (min-width: $screen-laptop) {
+  .masthead {
+    text-align: left;
+  }
+
+  .masthead-tagline {
+    display: inline;
+  }
+}

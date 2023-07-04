@@ -1,0 +1,16 @@
+title: Notes & Docs
+tagline: || (_ _)( - . - )(~O~)( - . - ) (。＿　＿)。ZZzzzz…
+description: Moriatur anima meamortem philisophorum.
+
+author:
+  name:   vyej
+  url:    
+  avatar: /assets/img/1.svg
+
+plugins:
+  - jekyll-paginate
+
+paginate: 1
+
+categories_path: /categories/
+tags_path: /tags/
