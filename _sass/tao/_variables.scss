@@ -15,7 +15,7 @@ $screen-desktop: 1024px;
   --body-color-light: var(--oc-gray-6);
   --body-color:       var(--oc-gray-8);
   --body-color-dark:  var(--oc-black);
-  --accent-color:     var(--oc-gray-5);
+  --accent-color:     var(--oc-gray-7);
   --message-color:    var(--oc-gray-8);
 
   --body-font:        -apple-system, BlinkMacSystemFont, Microsoft YaHei,微软雅黑,宋体,STXihei,华文细黑,Arial,Verdana,arial, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -25,9 +25,9 @@ $screen-desktop: 1024px;
   --body-font-size:   16px;
 
   --sidebar-width:        16rem;
-  --sidebar-bg:           var(--oc-gray-8);
-  --sidebar-color:        var(--oc-gray-5);
-  --sidebar-accent-color: var(--oc-white);
+  --sidebar-bg:           var(--oc-gray-1);
+  --sidebar-color:        var(--oc-gray-2);
+  --sidebar-accent-color: var(--oc-gray-6);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -44,6 +44,6 @@ $screen-desktop: 1024px;
 
 @media screen and (min-width: $screen-laptop) {
   :root {
-    --body-font-size: 18px;
+    --body-font-size: 16px;
   }
 }
