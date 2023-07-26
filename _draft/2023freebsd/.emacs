@@ -1,4 +1,4 @@
-;;hy's emacs @fedora中文測試！@#
+;;hy's emacs @freebsd 中文測試！@
 
 (require 'package)
 (add-to-list 'package-archives
@@ -51,13 +51,13 @@
 (prefer-coding-system 'utf-8)
 
 ;;auctex
-;(load "auctex.el" nil t t)
-;(setq TeX-auto-save t)
-;(setq TeX-parse-self t)
-;(setq-default TeX-master nil)
+(load "auctex.el" nil t t)
+(setq TeX-auto-save t)
+(setq TeX-parse-self t)
+(setq-default TeX-master nil)
 
 ;;ess R
-;(require 'ess-site)
+(require 'ess-site)
 
 ;;markdown
 (autoload 'markdown-mode "markdown-mode"
@@ -76,8 +76,8 @@
 				(lambda (frame)
 				  (with-selected-frame frame
 					(set-fontset-font "fontset-default"
-									  'unicode "Source Han Serif CN ExtraLight 16"))))
-(set-fontset-font "fontset-default" 'unicode "Source Han Serif CN Light 16"))
+									  'unicode "AR PL New Sung Mono 16"))))
+(set-fontset-font "fontset-default" 'unicode "AR PL New Sung Mono 16"))
 
 
 ;;
@@ -85,8 +85,8 @@
 
 
 ;;yasnippet
-(add-to-list 'load-path
-              "~/.emacs.d/plugins/yasnippet")
+;(add-to-list 'load-path
+;              "~/.emacs.d/plugins/yasnippet")
 (require 'yasnippet)
 (yas-global-mode 1)
 
