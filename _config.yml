@@ -1,4 +1,4 @@
-title: Notes & Docs
+title: il y a là cendre
 tagline: 
 description: Moriatur anima meamortem philisophorum.
 
@@ -10,7 +10,7 @@ author:
 plugins:
   - jekyll-paginate
 
-paginate: 3
+paginate: 5
 
 categories_path: /categories/
 tags_path: /tags/
