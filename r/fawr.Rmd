@@ -114,7 +114,7 @@ substr() 截取字符串
 
 match() 查找字符串，返回在數組中的位置
 
-## fataframe和輸入輸出
+## dataframe和輸入輸出
 
 dataframe被typeof()視爲列表。
 
@@ -228,20 +228,7 @@ shapiro.test(residuals(m1.hare))
 
 
 
-
-
-------
-
-
-關於翻譯的吐槽：
-
-dataframe翻譯成數據幀是認真的嗎……
-
-
-
+未完待續……
 
 ------
 
-footnotes:
-
-[^1]: `install.packages()   update.packages()   library()`
