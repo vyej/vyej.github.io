@@ -1,0 +1,247 @@
+---
+title: "FA with R"
+output: html_document
+date: "2023-08-10"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+其實這裏也算簡單一記？實際的筆記使用rstudio然後rmarkdown直接生成一個html咯。好像有點道理。
+
+------
+
+創建一個向量的價格並繪製：
+
+```{r}
+x = c(1.3, 1.2, 1.3, NA, 1.4, 1.5)
+plot(x,ylab="prices")
+is.na(x)
+```
+
+R處理NA，極大值（Inf），非數值(NaN)可以使用三個布爾值函數：
+is.na()  is.infinite()   in.nan()
+
+
+## 語言功能：函數、賦值、參數和類型
+
+過濾
+```{r}
+x[x>1.3]
+```
+
+自然對數函數log()
+
+```{r}
+y <- diff(log(x))
+round(y,3)
+```
+
+定義函數：
+```{r}
+g <- function(x,y=5){return(x^y)}
+g
+g(4,6)
+```
+
+R語言的箭頭賦值運算符來自APL。
+
+R語言“超級賦值” `<<`，是執行會在當前之外尋找x，全局中賦值給x，如果全局環境中沒有x，它會創建一個x並賦值給它。
+
+**因爲函數的參數是通過值傳遞的，所以超級賦值運算符是將結果返回調用環境的一種方法。**
+
+## 語言功能：綁定和數組
+
+函數：
+cbind()將項綁定到兩列
+
+rbind()將項綁定到兩行
+
+rep()創建重複項向量
+
+```{r}
+A = cbind(rep(x,length(y)),y)
+B = rbind(rep(x,length(y)),y)
+A
+B
+t(A) == B
+B[,4]
+B[,-4]
+```
+
+R最方便的功能之一是負下標。
+
+如果一個向量包含負下標向量，可以從維度中消除一組完整的元素。
+
+R有一個tryCatch()功能（函數）
+
+## 數字、統計和字符函數
+
+設置計算模式時，option(digits = n)可設置計算中要四捨五入的位數。
+
+函數：
+
+runif() 生成均勻分佈
+
+rnorm() 生成正太分佈
+
+rbinom() 生成二項分佈
+
+hist() 繪製直方圖
+
+density() 繪製密度圖
+
+set.seed() 設置隨機種子
+
+sample() 取樣
+
+可以通過繪製density()函數結果，檢驗二項分佈中變量的密度：
+
+```{r}
+plot(density(rbinom(50,50,1/2)))
+options(digits=6)
+sample(10,replace=TRUE)
+```
+
+R通過一組函數來支持字符串。
+
+函數：
+
+paste() 連接字符串
+
+substr() 截取字符串
+
+match() 查找字符串，返回在數組中的位置
+
+## fataframe和輸入輸出
+
+dataframe被typeof()視爲列表。
+
+目錄對於讀寫很重要。使用：
+
+setwd() 設置路徑
+
+getwd() 查看當前路徑
+
+
+
+列表是有序集合。
+
+##  資本資產定價模型
+
+```{r}
+library(RSQLite)
+library(foreign)
+setwd("~/FinAnalytics/ChapXII/")
+funda <- read.dta("funda.dta")
+msf <- read.dta("msf.dta")
+con <- dbConnect(SQLite(),":memory:")
+dbWriteTable(con, "funda", funda, overwrite=TRUE)
+dbWriteTable(con, "msf", msf, overwrite=TRUE)
+command <- "select tsymbol, ret
+            from msf
+            where date between '2005-01-01' and '2013-12-31'
+                  and tsymbol in('AAPL', 'SPY')"
+result <- dbGetQuery(con, command)
+y <- result[result$tsymbol=='AAPL',]$ret
+x <- result[result$tsymbol=='SPY',]$ret
+cov(x,y)/var(x)
+summary(lm(y~x+1))
+shapiro.test(x)
+shapiro.test(y)
+plot(x,y)
+```
+
+
+## 證券數據集和可視化
+
+```{r}
+displayCharts <- function(prices,lab,nrow=3,ncol=4,sleepSecs=4) {
+  Dims=length(prices[1,])
+  for(chartGrp in (1:ceiling(Dims/(nrow*ncol)))){
+    print(chartGrp)
+    par(mar=c(3.82,1.82,1.82,0.82))
+    par(mfrow=c(nrow,ncol))
+    for(i in 1:(nrow*ncol)){
+      j = ((chartGrp-1)*nrow*ncol+i)
+      if(j <= Dims){
+        print(paste(j,lab[j]))
+        plot(prices[,j],type="l",xlab=paste(j,lab[j]))
+      }
+    }
+    Sys.sleep(sleepSecs)
+  }
+}
+
+library(huge)
+data(stockdata)
+D = length(stockdata$data[1,])
+len = length(stockdata$data[,1])
+prices = stockdata$data[,1:D]
+lab = stockdata$info[1:D:1]
+displayCharts(prices[,1:12],lab[1:12],sleepSec=30)
+```
+
+
+## 時間序列
+
+```{r}
+library(quantmod)
+library(PerformanceAnalytics)
+sym.vec <- c("^GSPC","^VIX")
+getSymbols(sym.vec,from="2005-01-03", to="2015-09-16")
+```
+
+```{r}
+library(TSA)
+library(ggplot2)
+library(tseries)
+data(google)
+hist(google,breaks=100)
+curve(dnorm(x,mean=mean(google),sd=sd(google)),add=TRUE,col='blue')
+data(tempdub)
+plot(tempdub)
+adf.test(tempdub)
+month <- season(tempdub)
+model1 <- lm(tempdub ~ month -1)
+summary(model1)
+data(hare)
+plot(hare)
+adf.test(hare)
+par(mfrow=c(2,2))
+BoxCox.ar(hare)
+plot(sqrt(hare))
+acf(sqrt(hare))
+pacf(sqrt(hare))
+adf.test(sqrt(hare))
+m1.hare <- arima(x=sqrt(hare),order=c(3,0,0))
+runs(rstandard(m1.hare))
+tsdiag(m1.hare)
+par(mfrow=c(1,2))
+hist(rstandard(m1.hare))
+qqnorm(rstandard(m1.hare))
+qqline(rstandard(m1.hare))
+shapiro.test(residuals(m1.hare))
+```
+
+
+
+
+
+
+------
+
+
+關於翻譯的吐槽：
+
+dataframe翻譯成數據幀是認真的嗎……
+
+
+
+
+------
+
+footnotes:
+
+[^1]: `install.packages()   update.packages()   library()`
