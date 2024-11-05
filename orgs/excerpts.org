@@ -1,0 +1,30 @@
+#+options: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
+#+options: author:t broken-links:nil c:nil creator:nil
+#+options: d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t num:t
+#+options: p:nil pri:nil prop:nil stat:t tags:t tasks:t tex:t
+#+options: timestamp:t title:t toc:t todo:t |:t
+#+title: excerpts（一些摘抄）
+#+date: <2024-11-05 Tue>
+#+author: vy
+#+email: vyej@
+#+language: en
+#+select_tags: export
+#+exclude_tags: noexport
+#+creator: Emacs 28.2 (Org mode 9.5.5)
+#+cite_export:
+#+LATEX_HEADER:
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/org.css" />
+
+* 2024
+
+** 2024-11 November
+
+*** 2024-11-05 Tuesday
+****  Entered on [2024-11-05 Tue 23:26]  
+
+尽管洛克不像斯宾诺莎那样爱民主，但是他和斯宾诺莎一样，怀疑那些在自由和平等问题上无法迎合他人的天然骄傲的政治方案或道德教育是否有效。
+
+孟德斯鸠在其巨著的开篇就悄然指出一个根本的形而上学难题，即理智意志（rational conscionsness）的本体论地位问题。
+
+韦伯是知识领域和实践领域毫无联系地并肩共存，而在后者中,责任伦理与良知伦理的各种选择彼此对立，这种态度在他的一生中未曾改变。这使历史变成了一种魔法。
+
