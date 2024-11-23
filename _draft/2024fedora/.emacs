@@ -1,4 +1,4 @@
-;;hy's emacs @fedora中文測試！@#
+;;hy's emacs @fedora 中文測試！@#
 
 (require 'package)
 (add-to-list 'package-archives
@@ -85,8 +85,6 @@
 
 
 ;;yasnippet
-(add-to-list 'load-path
-              "~/.emacs.d/plugins/yasnippet")
 (require 'yasnippet)
 (yas-global-mode 1)
 
@@ -94,8 +92,9 @@
 ;;python
 ;(require 'elpy)
 ;(elpy-enable)
-;(add-hook 'python-mode-hook 'jedi:setup)
-;(setq jedi:complete-on-dot t)       
+
+(add-hook 'python-mode-hook 'jedi:setup)
+(setq jedi:complete-on-dot t)       
 
 
 ;; insert-datetime
@@ -110,11 +109,5 @@
 (define-key global-map "\C-cc" 'org-capture)
 (setq org-capture-templates
       '(
-	("t" "Todo" entry (file+headline "~/viCjourn/org/gtd.org" "Tasks")
-         "* TODO %?\n  %i\n  %a")
-        ("j" "Journal" entry (file+datetree "~/viCjourn/org/journal.org")
-         "* %?\nEntered on %U\n  %i\n  %a")
-	("n" "Notes" entry (file+headline "~/viCjourn/org/gtd.org" "Tasks")
-	 "* %^{heading} %t %^g\n  %?\n")))
-
-
+        ("j" "Journal" entry (file+datetree "~/precession/jour/2023.org")
+         "* %? Entered on %U %i %a")))
