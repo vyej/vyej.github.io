@@ -1,0 +1,27 @@
+
+[general]
+import = [
+    "~/.config/alacritty/themes/themes/catppuccin_mocha.toml"
+]
+
+# 字體配置，使用source code pro
+[font]
+size = 14.0
+[font.bold]
+family = "Source Code Pro"
+style = "Bold"
+[font.bold_italic]
+family = "Source Code Pro"
+style = "Bold Italic"
+[font.italic]
+family = "Source Code Pro"
+style = "Italic"
+[font.normal]
+family = "Source Code Pro"
+style = "Regular"
+#窗口
+[window]
+# 透明
+opacity = 0.85
+
+
