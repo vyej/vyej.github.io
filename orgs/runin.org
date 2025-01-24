@@ -3,7 +3,7 @@
 #+options: d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t num:t
 #+options: p:nil pri:nil prop:nil stat:t tags:t tasks:t tex:t
 #+options: timestamp:t title:t toc:t todo:t |:t
-#+title: 跑步的話
+#+title: Before the memories Fade
 #+date: <2024-11-11 Mon>
 #+author: vy
 #+email: vyej@
@@ -27,3 +27,15 @@
 比如總是還有一本沒有看過的跑步聖經或者跑步要注意的事項什麼的一類書。
 
 然後，算是開始新的計劃？從哪裏到哪裏。說路就在腳下。
+
+* 2025
+** 2025-01 January
+*** 2025-01-24 Friday
+**** 
+Entered on [2025-01-24 Fri 21:36]
+
+今天算是跑了今年的第2個，10公里。還是1小時8分鐘，似乎最近的成績都不好。
+
+主要原因還是胖了很多。結果這跑步的原因。
+
+
