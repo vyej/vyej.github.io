@@ -1,0 +1,38 @@
+---
+layout: post
+category: [notes]
+title: 記一次debian的安裝
+date: 2017-02-13 19:27:28
+tags: [debian, linux]
+math: true
+---
+
+說起來也是很久沒有用debian了？好像作爲桌面確實不是很方便，不過穩定性呢。
+
+所以還是又重新安裝上debian了。
+
+** 安裝
+
+還是下載iso，燒錄到u盤裏面，然後安裝。簡單期間，選了lxde。其他圖形化界面安裝，好像也沒有什麼說的。
+
+比較麻煩一點的就是nvidia顯卡。
+
+安裝好之後基本一些配置：
+
+中文locale，對於的字體，輸入法。
+
+debian下的lxde甚至都安裝好了libreoffice，貌似應用方面其實都不用做什麼了。
+
+** java環境
+
+
+** nvdia顯卡
+
+
+
+
+--------
+
+
+
+
