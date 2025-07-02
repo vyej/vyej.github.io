@@ -1,0 +1,39 @@
+baseURL = "https://vyej.github.io/"
+title = "il y a là cendre"
+languageCode = "en"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
+theme = "HugoTeX"
+
+[pagination]
+  pagerSize = 3
+
+[Params.author]
+  name = "星辰的漫遊構成了時間"
+  abstract = """
+ “因為，他是這樣一個人，他寧愿穿著乞丐的偽裝穿越諾干個世紀，不愿向一大群人販賣蘇格拉底靜默審慎的智慧珍貴的秘密，只有當他用充斥著出人意料而又眼花繚亂的情節的某個阿格西勞，某個居魯士、某個色諾芬的巧妙故事迷醉了這些人之後，他們讓他逃脫，獲得不朽聲名。”
+
+所以，所謂販賣其實也是關于智慧的一種分殊，雖然在如何區分上有著一定的困難，畢竟從根本上來說，都是靠著某種販賣來傳遞的。只不過有的更現實一點，而有的更頑固些？或者只是還不夠智慧來判斷所謂現實，甚至決斷的關鍵時刻？
+
+所以，現代的寫作最終還是一種恥辱？
+  """
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = "paraiso-dark"
+
+[Params]
+  darkmode = true
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
