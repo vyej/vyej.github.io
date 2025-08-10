@@ -1,0 +1,11 @@
+name: 星辰的漫遊構成了時間
+description: Evaluates the current region >----  Moriatur anima meamortem philisophorum.
+
+url: https://vyej.github.io/
+baseurl: '/'
+
+permalink: /:year/:month/:day/:title/
+paginate: 1
+
+gems: [jekyll-paginate]
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
